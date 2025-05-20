@@ -1,17 +1,17 @@
 # Test Files for Internet Speed Test
 
-This directory contains binary files of different sizes for Internet speed testing using jsDelivr CDN.
+This repository contains binary files of different sizes for Internet speed testing using raw GitHub URLs.
 
-## Instructions for using jsDelivr CDN
+## Instructions for using Raw GitHub
 
-To use these files with jsDelivr CDN, follow these steps:
+To use these files with raw GitHub URLs, follow these steps:
 
 1. Create a public GitHub repository where you'll upload these binary files
 2. Add the .bin files to your repository
-3. Use the following URL format to access the files through jsDelivr:
+3. Use the following URL format to access the files directly from GitHub:
 
 ```
-https://cdn.jsdelivr.net/gh/USERNAME/REPO@BRANCH/path/to/file.bin
+https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/path/to/file.bin
 ```
 
 Where:
@@ -19,13 +19,13 @@ Where:
 - `REPO` is your repository name
 - `BRANCH` is the branch (usually 'main' or 'master')
 
-## Advantages of using jsDelivr
+## Advantages of using Raw GitHub
 
-- Global distribution through multiple CDNs
-- High availability and performance
-- No bandwidth limits
-- HTTP/2 and HTTPS compatible
-- Optimized for fast file delivery
+- Direct access to GitHub-hosted files
+- No transformations or processing of the files
+- Reliable access for testing purposes
+- HTTPS compatible
+- Simple URL structure
 
 ## List of available files
 
@@ -37,14 +37,17 @@ Where:
 - 5MB.bin - 5 MB
 - 10MB.bin - 10 MB
 - 20MB.bin - 20 MB
+- 40MB.bin - 40 MB
+- 50MB.bin - 50 MB
+- 100MB.bin - 100 MB
 
-## URL structure for jsDelivr
+## URL structure for Raw GitHub
 
 Example URLs for the test files (replace with your own data):
 
 ```
-https://cdn.jsdelivr.net/gh/your-username/speed-test-files@main/128KB.bin
-https://cdn.jsdelivr.net/gh/your-username/speed-test-files@main/256KB.bin
-https://cdn.jsdelivr.net/gh/your-username/speed-test-files@main/512KB.bin
+https://raw.githubusercontent.com/your-username/speed-test-files/main/128KB.bin
+https://raw.githubusercontent.com/your-username/speed-test-files/main/256KB.bin
+https://raw.githubusercontent.com/your-username/speed-test-files/main/512KB.bin
 ...
 ```
