@@ -34,12 +34,12 @@ Where:
 - 512KB.bin - 512 KB
 - 1MB.bin - 1 MB
 - 2MB.bin - 2 MB
-- 5MB.bin - 5 MB
-- 10MB.bin - 10 MB
-- 20MB.bin - 20 MB
-- 40MB.bin - 40 MB
-- 50MB.bin - 50 MB
-- 100MB.bin - 100 MB
+- 4MB.bin - 4 MB
+- 8MB.bin - 8 MB
+- 16MB.bin - 16 MB
+- 32MB.bin - 32 MB
+- 64MB.bin - 64 MB
+- 128MB.bin - 128 MB
 
 ## URL structure for Raw GitHub
 
